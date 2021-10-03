@@ -9,23 +9,15 @@ public:
 	string NewyearDay;
 	int tyear;	
 }; 
-string str_day[] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
+string week_date[7] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
 int month_day[] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 
 int main()
 {
 
-time_t temp;
-struct tm* timeinfo;
- 
-time(&temp);
-timeinfo = localtime(&temp);
 
-1900 + timeinfo->tm_year;
-1 + timeinfo->tm_mon;
-timeinfo->tm_mday;
  
-cout << "year : " << 1900 + timeinfo->tm_year << "\n";
+
 
 
  

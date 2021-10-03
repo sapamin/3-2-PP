@@ -1,13 +1,21 @@
 #include <iostream>
-#include <window.s>
+#include <ctime>
 #include <string>
-#inclue <vector>
 
-class today{
+const int classrepeat=16; //1«–±‚-16¡÷ 
+class thisyear{
 public:
     int ndate[11];
-	string NewyearDay;
+	int NewyearDay;
 	int tyear;	
+};
+class plusclass{
+public:
+    int cmonth;
+	int cday;
+	int cdate;
+    
+		
 };
 
 
