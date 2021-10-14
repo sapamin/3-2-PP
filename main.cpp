@@ -1,7 +1,9 @@
+#include <iostream>
 #include<bits/stdc++.h>
-#include "time.h"
+#include "settime.h"
 #include <ctime>
 using namespace std;
+//#define week_date[7] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
  
 class today{
 public:
@@ -9,7 +11,6 @@ public:
 	string NewyearDay;
 	int tyear;	
 }; 
-string week_date[7] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
 int month_day[] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
 
 int main()
